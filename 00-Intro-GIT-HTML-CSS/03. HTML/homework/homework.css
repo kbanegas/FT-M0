@@ -1,0 +1,18 @@
+h1{
+    color:yellow;
+}
+img{
+    width:400px;
+    border-radius: 70%;
+}         
+#thirdDiv{
+    height: 700px;
+    width: 500px;
+    background-color: rgb(247, 58, 25);
+    padding:65px;
+    border:15px solid springgreen ;
+    border-radius: 30px;
+}
+#spanid{
+    font-size: 18px;
+}
