@@ -1,18 +1,66 @@
 h1{
     color:yellow;
 }
+h3{
+    color:rgb(255, 72, 0);
+}
+h4{
+    color:#09ff00;
+}
 img{
     width:400px;
     border-radius: 70%;
+    margin: 0 auto;
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: text-bottom;
 }         
 #thirdDiv{
-    height: 700px;
-    width: 500px;
+    height: 250px;
+    width: 1000px;
     background-color: rgb(247, 58, 25);
-    padding:65px;
+    padding:100px;
     border:15px solid springgreen ;
     border-radius: 30px;
+    color:yellow
 }
 #spanid{
     font-size: 18px;
+    color:hsl(64, 100%, 66%)
 }
+body {
+    height: 400px;
+    background-image: url("https://media3.picsearch.com/is?MaIAdwNpPO801HMu8OcqQxLvHAe8l6RbSTwnPCS_wGo&height=204");
+    background-size: cover;
+    background-repeat:repeat;
+    background-position: center center;
+  }
+
+a {
+    color:yellowgreen
+}
+.centrado {
+    display: flex;
+    flex-flow: row;
+    padding: 50px;
+  }
+  
+  .divClass {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  li {
+    height: 40vh;
+    flex-grow: 1;
+  }
+
+  li:last-child {
+    flex-grow: 10;
+  }
